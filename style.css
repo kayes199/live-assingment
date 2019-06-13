@@ -1,0 +1,57 @@
+.banner-section{
+	height: 70vh;
+	background:#ddd6;
+	position: relative;
+}
+.banner-content{
+	position: absolute;
+	left: 50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+}
+.banner-content h2{
+    font-size: 40px;
+}
+.banner-content p{
+    font-size: 20px;
+    line-height: 1.5;
+}
+.heading{
+	padding-bottom: 30px;
+}
+.heading span{
+    width: 150px;
+    height: 5px;
+    display: block;
+    background: #9c4343c9;
+    border-radius: 5px;
+}
+.portfolio-section{
+	background:#ddd;
+	padding:50px 0;
+}
+.single-portfolio{
+    border: 1px solid #5f5e5e66;
+    border-radius: 5px;
+    background: #f1f1f1;
+}
+.single-portfolio img{
+    width: 100%;
+    border-radius: 3px;
+}
+
+
+@media (min-width: 576px) {
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+	
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
